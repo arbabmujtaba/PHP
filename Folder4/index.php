@@ -13,7 +13,6 @@
         }
         .container{
             background-color: rgb(55, 135, 121);
-            height: 120px;
             color: white;
             margin: auto;
             padding: 23px;
@@ -34,7 +33,24 @@
             $Parray = array("Lucky","Mubasher","Waqas");
             echo "<br>";
             echo $Parray[1];
-
+            // loops In PHP
+            $vall = 2;
+            // while($vall <= 100){
+            //     echo "This is a simple Loop";
+            //     $vall++;  
+            // }
+            echo "<br>";
+            do{
+                echo "This is a simple Loop";
+                $vall++;      
+            }
+            while($vall < 10);
+            echo "<br>";
+            echo $Parray[2];
+            for ($vall = 0; $vall < 50; $vall++) {
+                echo "welcome my nigga";
+                echo "text";
+            }
             ?>
         </div>
 </body>
