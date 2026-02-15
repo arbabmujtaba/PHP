@@ -14,6 +14,35 @@
         $var2= 13;
         echo "<br>";
         echo $var1 + $var2;
+        echo "<br>";
+        echo $var1 - $var2;
+        echo "<br>";
+        echo $var1 * $var2;
+        echo "<br>";
+        echo $var1 / $var2;
+        echo "<br>";
+        $varsum = $var1;
+        echo "<br>";
+        echo $varsum;
+
+         echo "<br>";
+         echo "These are some comparison operators";
+          echo "<br>";
+         echo var_dump(1==2);
+          echo "<br>";
+          echo var_dump(1!=2);
+           echo "<br>";
+           echo $var1++;
+            echo "<br>";
+           echo $var2--;
+            echo "<br>";
+           echo $var1;
+           echo "<br>";
+           echo --$var1;
+           echo  $var1;
+           $myvar1 = (false) and (true);
+           echo "<br>";
+           echo var_dump($myvar1);
         ?>
     </div>
 </body>
